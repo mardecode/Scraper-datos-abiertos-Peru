@@ -1,3 +1,10 @@
+Desarrollado por Margarita Lacuaña
+
+# Requerimientos 
+Selenium
+
+Pandas
+
 # scrapper.py
 Para ejecutar se requiere indicar la ruta de chromedriver
 ``` 
@@ -20,3 +27,12 @@ Para ejecutar requiere pasar el nombre del archivo por argumento
 python3 filter_region.py pcm_donaciones.csv
 ```
 el resultado se almacerá en una nueva carpeta 'regiones', si esta no existe se creará automaticamente.
+
+# test.py
+
+Para ejecutar test.py solo es necesario
+``` 
+python3 test.py
+```
+
+Este archivo verificará que se haya creado corrrectamente los archivos de regiones. 
